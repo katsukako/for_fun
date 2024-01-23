@@ -28,7 +28,9 @@ def main():
 
 while True:
     try:
+        print()
         main()
+        print()
     except KeyboardInterrupt as err:
         print("exit")
         break
